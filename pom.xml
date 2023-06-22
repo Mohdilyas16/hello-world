@@ -126,19 +126,15 @@
           <version>2.5</version>
         </plugin>
 
-       <plugin>
-         <groupId>org.apache.maven.plugins</groupId>
-         <artifactId>maven-site-plugin</artifactId>
-         <version>3.0</version>
-         <configuration>
-         ...
-         </configuration>
-       </plugin>
+         <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.0</version>
+         </plugin>
 
-        <plugin>
+          <plugin>
           <artifactId>maven-surefire-report-plugin</artifactId>
           <version>2.11</version>
-        </plugin>
+         </plugin>
 
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
